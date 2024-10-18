@@ -68,7 +68,7 @@ jobs:
       - name: Test index.js
         env: 
           INPUT_GITHUB_USERNAME: "gut2003817"
-          INPUT_GITHUB_TOKEN: ${{ secrets.oops }}
+          INPUT_GITHUB_TOKEN: ${{ secrets.github_token }}
           INPUT_GITHUB_REPOS: '[gut2003817/activity-log]'
           INPUT_OUTPUT_STYLE: MARKDOWN
           INPUT_IGNORE_EVENTS: '[]'
